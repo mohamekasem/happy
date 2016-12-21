@@ -1,53 +1,52 @@
 .img {
-    padding-top: 100px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+	padding-top: 100px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left: 80px;
 }
 
 #background1 {
-background-color: #302A17
+	background-color: #000000
 }
 
 #background2 {
-background-color: #ffffff
+	background-image: #ffffff ;
 }
 
-#formatButton {
-  margin-left: 
-}
 
-#formatButton1{
-   
-}
 
 .img1 {
-position: absolute;
-left: 20%;
-right: 0px;
-top: 220px; 
+	position: absolute;
+	left: 20%;
+	right: 0px;
+	top: 195px; 
 
 }
 
 .cloud {
-position: absolute;
-left: 44%;
-right: 0px;
-top: 30px; 
+	position: absolute;
+	left: 57%;
+	right: 0px;
+	top: 30px; 
 
 }
 
-.heart{
-position: absolute;
-left: 73%;
-right: 0px;
-top: 200px; 	
+.like{
+	position: absolute;
+	left: 83%;
+	right: 0px;
+	top: 400px; 	
 }
 
-.heart1{
-position: absolute;
-left: 76%;
-right: 0px;
-top: 200px; 	
+.dislike{
+	position: absolute;
+	left: 78%;
+	right: 0px;
+	top: 400px; 	
 }
 
+#image{
+background-color: #000000;
+padding-bottom: 92px;
+
+}
