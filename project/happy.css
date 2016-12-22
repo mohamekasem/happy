@@ -31,22 +31,68 @@
 
 }
 
-.like{
-	position: absolute;
-	left: 83%;
-	right: 0px;
-	top: 400px; 	
-}
-
-.dislike{
-	position: absolute;
+#like{
+	position: fixed;
 	left: 78%;
 	right: 0px;
-	top: 400px; 	
+	top: 450px; 	
 }
 
+#dislike{
+	position: fixed;
+	left: 73%;
+	right: 0px;
+	top: 450px; 	
+}
+#ss{
+	padding-top: 30px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left:480px;	
+}
 #image{
-background-color: #000000;
-padding-bottom: 92px;
+	background-color: #000000;
+	padding-bottom: 92px;
 
 }
+
+
+#text{
+	font-size: 40px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	position: fixed;
+	left: 46%;
+	right: 0px;
+	top: 130px;
+}
+.center {
+    margin: auto;
+    width: 45%;
+    border: 0px solid green;
+    padding: 15px;
+}
+
+#hacking{
+position: absolute;
+    left: 32%;
+    right: 0px;
+    top: 440px;     
+}
+
+#sad{
+position: absolute;
+font-family: "Comic Sans MS", cursive, sans-serif;
+    left: 25%;
+    right: 0px;
+    top: 480px;     
+}
+
+
+
+.happy:hover {background-color: #E0DBD4}
+.happy:active {
+  background-color: #E0DBD4;
+  box-shadow: 0 5px #666;
+  transform: translateY(1px);
+}
+
